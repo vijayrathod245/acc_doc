@@ -43,3 +43,7 @@ mysqldump -h ckshdphy86qnz0bj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u wr27z9
 mysql -h ckshdphy86qnz0bj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u wr27z9s7nj2eq3dy -ppalcm07llm6gcg1t cd8mku3pz129dz4c > backup.sql
 
 mysql -h localhost -u root -p ex_hw < backup.sql
+
+
+https://lit-beach-28788.herokuapp.com
+https://still-garden-44769.herokuapp.com
