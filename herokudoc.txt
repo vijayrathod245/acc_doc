@@ -37,6 +37,7 @@ http://technomile.github.io/wordpress/setup.html
 
 heroku domains:add www.wordpressheroku.com
 
+php artisan migrate:refresh --seed --force
 
 mysqldump -h ckshdphy86qnz0bj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u wr27z9s7nj2eq3dy -ppalcm07llm6gcg1t cd8mku3pz129dz4c > backup.sql
 mysql -h ckshdphy86qnz0bj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u wr27z9s7nj2eq3dy -ppalcm07llm6gcg1t cd8mku3pz129dz4c > backup.sql
